@@ -2,7 +2,7 @@
 # User
 ################################################################################
 
-resource "aws_iam_user" "Vaira" {
+resource "aws_iam_user" "vairamuthu" {
   count = var.create ? 1 : 0
 
   name                 = var.name
